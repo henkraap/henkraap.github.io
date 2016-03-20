@@ -1,7 +1,6 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
+
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 disqus: henkraap
@@ -22,9 +21,11 @@ author:
   bio: Photography by Henk Raap
   email_md5: 948e2cd8fd6136e06c4d80d00f5eea68
 # Gems
- gems:
+gems:
 - jekyll-paginate
 
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
 rss_path: feed.xml
 categories_path: categories.html
 # tags_path: tags.html
